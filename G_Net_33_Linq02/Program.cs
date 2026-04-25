@@ -6,11 +6,9 @@ namespace G_Net_33_Linq02
     {
         static void PrintHeader(int num, string title)
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"{"─",-60}");
+           
             Console.WriteLine($"  Exercise {num}: {title}");
-            Console.WriteLine($"{"─",-60}");
-            Console.ResetColor();
+            
         }
 
         static void Main(string[] args)
